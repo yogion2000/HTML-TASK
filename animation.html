@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        #div1{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            animation-name: f1;
+            animation-duration: 4s;
+        }
+        @keyframes f1 {
+            0%{ left:0px;top:0px;}
+            20%{ left:800px;top:500px;}
+            40%{ left:1080px; top:920px;}
+            60%{ left:50%; top:0%;}
+            80%{ left:0%;top:100%;}
+            100%{ left:0%;top:0%;}
+            
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

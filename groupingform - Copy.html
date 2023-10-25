@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+</head>
+<body>
+   
+    <fieldset> <legend>Customer</legend>
+        <table>
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text" name="Name" id="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email</label></td>
+                <td><input type="email" name="mail" id="Mail" required></td>
+            </tr>
+            <tr>
+                <td><label for="investment">Investment</label></td>
+                <td><select name="investment" id="investment" required>
+                    <option value="10000000">10000000000000000000</option>
+                    <option value="90000000">90000000000000000000</option>
+                    <option value="99000000">99000000000000000000</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date</label></td>
+                <td><input type="date" name="date" id="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="Active">Active</label></td>
+                <td><input type="checkbox" name="Active" id="active"></td>
+            </tr>
+        </table>
+    </fieldset><br>
+    <input type="submit" name="Ok" id="Ok" value="OK">
+    <input type="reset" name="cancel" id="Cancel" value="Cancel">
+</body>
+</html>
